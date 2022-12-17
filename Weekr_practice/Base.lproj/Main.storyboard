@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Weekr_practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="background_main" translatesAutoresizingMaskIntoConstraints="NO" id="L5p-hl-5WX">
+                                <rect key="frame" x="-184" y="0.0" width="1220" height="393"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="K0V-33-QlB">
+                                <rect key="frame" x="416" y="87" width="162" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxY-je-7Hh">
+                                <rect key="frame" x="248" y="278" width="141" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="ramen1"/>
+                                <connections>
+                                    <action selector="PotFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Nv-dS-JMY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Znj-Wx-zUg">
+                                <rect key="frame" x="108" y="278" width="141" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="ramen1"/>
+                                <connections>
+                                    <action selector="PotThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tW7-nx-XD2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaF-GF-fwb">
+                                <rect key="frame" x="145" y="193" width="141" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="ramen1"/>
+                                <connections>
+                                    <action selector="PotOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfb-xg-aQf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJr-ea-IaP">
+                                <rect key="frame" x="281" y="193" width="145" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="ramen1"/>
+                                <connections>
+                                    <action selector="PotTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B20-Oi-0Lg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-Fj-WHF">
+                                <rect key="frame" x="367" y="173" width="188" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="ingredient5"/>
+                                <connections>
+                                    <action selector="WaterBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e6f-p7-Ad5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cm0-uF-8RN">
+                                <rect key="frame" x="126" y="15" width="133" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" backgroundImage="ingredient1"/>
+                                <connections>
+                                    <action selector="SoupBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RBz-k6-8SU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yno-F7-C9O">
+                                <rect key="frame" x="135" y="87" width="114" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="ingredient3"/>
+                                <connections>
+                                    <action selector="NoodleBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H1d-37-Nmu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24Q-ls-NzJ">
+                                <rect key="frame" x="620" y="99" width="98" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Asq-9q-dKl">
+                                <rect key="frame" x="636" y="193" width="71" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exc-30-LCZ">
+                                <rect key="frame" x="250" y="15" width="139" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="ingredient2">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="GreenBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cln-gr-eHb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggW-iL-JIl">
+                                <rect key="frame" x="248" y="87" width="129" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="ingredient4"/>
+                                <connections>
+                                    <action selector="EggBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N7z-Py-thk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="L5p-hl-5WX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nWz-aI-rkm"/>
+                            <constraint firstAttribute="bottom" secondItem="L5p-hl-5WX" secondAttribute="bottom" id="nzQ-G6-Z86"/>
+                            <constraint firstItem="L5p-hl-5WX" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="x41-c9-TMR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="EggBtn" destination="ggW-iL-JIl" id="7pv-LH-MtE"/>
+                        <outlet property="GreenBtn" destination="exc-30-LCZ" id="Qoc-EP-W4z"/>
+                        <outlet property="NoodleBtn" destination="yno-F7-C9O" id="Zbz-zM-hom"/>
+                        <outlet property="PotFour" destination="CxY-je-7Hh" id="Xli-Vu-PbW"/>
+                        <outlet property="PotOne" destination="TaF-GF-fwb" id="5mh-VN-xUL"/>
+                        <outlet property="PotThree" destination="Znj-Wx-zUg" id="LHd-sg-4Rh"/>
+                        <outlet property="PotTwo" destination="EJr-ea-IaP" id="5Od-jf-5PY"/>
+                        <outlet property="SoupBtn" destination="Cm0-uF-8RN" id="H1o-2j-r17"/>
+                        <outlet property="WaterBtn" destination="RxZ-Fj-WHF" id="zaE-zw-Yq1"/>
+                        <outlet property="scoreText" destination="24Q-ls-NzJ" id="nIi-yL-qou"/>
+                        <outlet property="timeProgress" destination="K0V-33-QlB" id="gYH-DZ-gGE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="684.50704225352115" y="-127.48091603053435"/>
+        </scene>
+        <!--Game Over-->
+        <scene sceneID="jUy-XM-eh4">
+            <objects>
+                <viewController storyboardIdentifier="GameOver" id="DQA-y1-j40" customClass="GameOver" customModule="Weekr_practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zGo-nT-hOq">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Cj-Vr-BQJ">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFF-yn-C2Y">
+                                <rect key="frame" x="20" y="16" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bef-Tv-JST">
+                                <rect key="frame" x="20" y="15" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="backButton:" destination="DQA-y1-j40" eventType="touchUpInside" id="7xc-gN-JoI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label       " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZJ-p4-KR8">
+                                <rect key="frame" x="512" y="141" width="83" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PcV-IY-4PK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7Cj-Vr-BQJ" firstAttribute="top" secondItem="zGo-nT-hOq" secondAttribute="top" id="3CL-tX-kkn"/>
+                            <constraint firstItem="7Cj-Vr-BQJ" firstAttribute="leading" secondItem="PcV-IY-4PK" secondAttribute="leading" id="3JH-0q-1VV"/>
+                            <constraint firstAttribute="bottom" secondItem="7Cj-Vr-BQJ" secondAttribute="bottom" id="6bl-yo-d4f"/>
+                            <constraint firstItem="7Cj-Vr-BQJ" firstAttribute="trailing" secondItem="PcV-IY-4PK" secondAttribute="trailing" id="9dl-4f-gBO"/>
+                            <constraint firstItem="7Cj-Vr-BQJ" firstAttribute="leading" secondItem="PcV-IY-4PK" secondAttribute="leading" id="G3d-sV-Sff"/>
+                            <constraint firstAttribute="bottom" secondItem="7Cj-Vr-BQJ" secondAttribute="bottom" id="Lvd-vS-xri"/>
+                            <constraint firstItem="7Cj-Vr-BQJ" firstAttribute="top" secondItem="zGo-nT-hOq" secondAttribute="top" id="qNj-Rk-Yag"/>
+                            <constraint firstItem="7Cj-Vr-BQJ" firstAttribute="trailing" secondItem="PcV-IY-4PK" secondAttribute="trailing" id="tCd-QZ-yiV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="xFF-yn-C2Y" id="jyH-U0-xqU"/>
+                        <outlet property="backgorundImg" destination="7Cj-Vr-BQJ" id="f7j-8X-VVN"/>
+                        <outlet property="totalScore" destination="7ZJ-p4-KR8" id="hG5-RE-3Yu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZMo-w3-ZB9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1359.8591549295775" y="-127.48091603053435"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background_main" width="1220" height="779"/>
+        <image name="ingredient1" width="219" height="136"/>
+        <image name="ingredient2" width="279" height="122"/>
+        <image name="ingredient3" width="204" height="106"/>
+        <image name="ingredient4" width="227" height="112"/>
+        <image name="ingredient5" width="366" height="404"/>
+        <image name="ramen1" width="285" height="180"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
